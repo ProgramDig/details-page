@@ -37,6 +37,8 @@ body {
 }
 
 .desc {
+	color: #696969;
+
 	margin: 30px auto;
 	text-align: justify;
 	display: flex;
@@ -58,4 +60,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.for-child {
+	font-weight: 700;
+	color: black;
 }
