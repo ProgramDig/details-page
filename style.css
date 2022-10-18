@@ -20,18 +20,38 @@ body {
 	color: rgb(128,128,128);
 }
 .href a:hover {
-	color: orange;
+	color: rgb(255, 140, 0);
 	transition: .3s;
 }
-.desc {
-	margin-top: 30px;
-	text-align: justify;
+.btn {
+	background-color: rgb(255, 140, 0);
+	color: white;
 }
-.footer {
+.btn:hover {
+	background-color: rgb(209, 115, 0);
+	color: white;
+}
+.btn:hover:active {
+	background-color: rgb(255, 140, 0);
+	color: white;
+}
+
+.desc {
+	margin: 30px auto;
+	text-align: justify;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	
+}
+.number {
+	text-decoration: none;
+	color: black;
+}
+.number:hover {
+	text-decoration: none;
+	color: rgb(255, 140, 0);
+}
+.footer {	
 	position: absolute;
 	bottom: 0;
 }
